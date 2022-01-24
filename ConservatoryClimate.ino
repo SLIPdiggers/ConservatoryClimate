@@ -1,3 +1,8 @@
+//Arduino program for scraping local rainfall from a weatherstation and then measuring conservatory humidity..
+//both values uploaded and plotted to historical graphing in thingspeak.
+//Realtime humidity readout on an LCD screen in conservatory.. plus controls a mains circuit to switch on dehumidifier to bring
+//humidity below desirable threshold.
+
 #include <ThingSpeak.h>
 #include <WiFiNINA.h>
 #include <Wire.h>
